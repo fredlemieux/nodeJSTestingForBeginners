@@ -1,0 +1,26 @@
+{
+  "name": "beginner-testing",
+  "version": "1.0.0",
+  "description": "This is introduction to testing in NodeJS specifically using Mocha and Chai",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocho --watch",
+    "part1": "nodemon 01_basic_function.js",
+    "part2": "nodemon 02_basic_function.spec.js",
+    "part3": "nodemon 03_basic_function.spec.assert.js",
+    "part4": "mocha 04_mocha_example.test.js"
+  },
+  "keywords": [
+    "nodejs",
+    "mocha",
+    "chai",
+    "tutorial",
+    "test"
+  ],
+  "author": "Frederique Lemieux",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
+}
